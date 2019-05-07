@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Коновалов](https://up.htmlacademy.ru/htmlcss/25/user/1055337).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Ясель](https://htmlacademy.ru/profile/yasel).
 
 ---
 
