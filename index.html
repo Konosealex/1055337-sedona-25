@@ -14,7 +14,7 @@
           <li><a href="info.html">Информация</a></li>
           <li><a href="gallery.html">Фото и видео</a></li>
           <li><a href="map.html">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -36,11 +36,37 @@
       <h2>Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам
         лучшие предложения гостиниц в Cедоне</p>
-      <a class="interested-button-search" href="hotels.html">Поиск гостиницы в Седоне</a>
+      <button class="interested-button-search" type="button">Поиск гостиницы в Седоне</button>
     </section>
 
-    <section class="search-form">
-      <!--Тут будет форма-->
+    <section class="hotels-search">
+      <h2 class="visually-hidden">Форма поиска гостиниц в городе Седона</h2>
+      <form class="hotels-search-form" action="https://echo.htmlacademy.ru"
+        method="post">
+        <p class="hotels-search-item">
+          <label>Дата заезда
+            <input type="text" name="arrival_date" value=""
+            placeholder="24 апреля 2017">
+          </label>
+        </p>
+        <p class="hotels-search-item">
+          <label>Дата выезда
+            <input type="text" name="departure_date" value=""
+            placeholder="4 июля 2017">
+          </label>
+        </p>
+        <p class="hotels-search-item">
+          <label>Взрослые
+            <input type="number" min="1" name="adults" value="" placeholder="2">
+          </label>
+        </p>
+        <p class="hotels-search-item">
+          <label>Дети
+            <input type="number" name="child" value="" placeholder="0">
+          </label>
+       </p>
+       <button class="button" type="submit">Найти</button>
+       </form>
     </section>
     </main>
     <footer class="main-footer">
