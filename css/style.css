@@ -213,7 +213,7 @@ a {
 }
 
 .catalog-item-type,
-.catalog-item-price {
+.catalog-item-exact-price {
   font-size: 14px;
   line-height: 21px;
   color: #333333;
