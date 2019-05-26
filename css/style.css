@@ -125,6 +125,7 @@ a {
 }
 
 .hotels-search input:focus {
+  outline: none;
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
 }
@@ -232,6 +233,14 @@ a {
   line-height: 26px;
   font-weight: 700;
   color: #000000;
+}
+
+.catalog-item-title:hover {
+  color: #81b3d2;
+}
+
+.catalog-item-title:active {
+  color: #b2b2b2;
 }
 
 .catalog-item-type,
