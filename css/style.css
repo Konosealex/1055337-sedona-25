@@ -125,9 +125,8 @@ a {
 }
 
 .hotels-search input:focus {
-  outline: none;
+  outline: 2px solid #e5e5e5;
   background-color: #ffffff;
-  border: 2px solid #e5e5e5;
 }
 
 .hotels-search button {
