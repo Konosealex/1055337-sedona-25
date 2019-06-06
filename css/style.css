@@ -144,7 +144,7 @@ img {
   text-align: center;
 }
 
-.interested a {
+.interested-button-search {
   background-color: #766357;
   color: #ffffff;
   font-size: 21px;
@@ -211,12 +211,16 @@ img {
 }
 
 .main-footer {
-  background-color: rgba(249, 251, 246, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 120px;
   display: flex;
-  justify-content: space-between;
+  position: relative;
   align-items: center;
-  padding: 36px 73px;
-  text-align: center;
+  width: 1200px;
+}
+
+.footer-hashtag {
+  width: 400px;
 }
 
 .footer-hashtag a {
@@ -224,6 +228,10 @@ img {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  font-size: 21px;
+  margin: 0;
+  padding-left: 132px;
+
 }
 
 .footer-social li {
@@ -231,34 +239,34 @@ img {
 }
 
 .footer-social {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  width: 400px;
+  padding-left: 0;
+	margin-left: 255px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
 }
 
-.footer-social li:first-child {
-  margin-left: 125px;
+.footer-social li{
+	list-style: none;
+	padding-right: 6px;
 }
 
-.footer-social li:nth-child(2) {
-  margin-left: 8px;
-  margin-right: 8px;
+.footer-social li:last-child{
+	padding-right: 0;
 }
 
-.footer-social li:last-child {
-  margin-right: 125px;
+.footer-social a{
+	text-decoration: none;
 }
 
-.social-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 46px;
-  height: 48px;
-  background-color: #81b3d2;
+.social-button{
+	width: 46px;
+	height: 48px;
+	background-color: #81b3d2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .social-button:hover {
@@ -269,14 +277,11 @@ img {
   background-color: #5496bd;
 }
 
-.footer-hashtag,
-.footer-social {
-  width: 240px;
-}
-
 .footer-copyright {
-  display: flex;
-  text-align: center;
+  margin: 0;
+	margin-left: 230px;
+	display: flex;
+	align-items: center;
 }
 
 .footer-copyright b {
@@ -288,6 +293,7 @@ img {
 
 .footer-copyright a, {
   color: #231f20;
+  padding-left: 5px;
 }
 
 .footer-img {
