@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -103,6 +103,7 @@ img {
   margin-bottom: 60px;
   text-align: center;
   background-image: url("../img/background-photo.jpg");
+  background-color: #81b3d3;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -125,6 +126,7 @@ img {
   text-align: center;
 }
  .features p {
+   font-weight: 400;
    font-size: 14px;
    line-height: 26px;
    color: #333333;
@@ -239,6 +241,7 @@ img {
 }
 
 .interested p {
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #333333;
@@ -271,7 +274,7 @@ img {
 
 .interested a:hover {
   background-color: #604e43;
-  color: #fffff;
+  color: #ffffff;
 }
 
 .interested a:active {
@@ -353,10 +356,12 @@ img {
 .button-calendar:focus,
 .button-calendar:focus {
   fill: #000000;
+  outline: 2px solid #e5e5e5;
 }
 
 .button-calendar:active {
   fill: #81b3d2;
+  outline: 2px solid #e5e5e5;
 }
 
 .hotels-search-half-wrapper {
@@ -401,11 +406,13 @@ img {
 .button-less:focus,
 .button-more:focus {
   color: #000000;
+  outline: 2px solid #e5e5e5;
 }
 
 .button-more:active,
 .button-less:active {
   color: #81b3d2;
+  outline: 2px solid #e5e5e5;
 }
 
 .button-search {
@@ -1006,6 +1013,7 @@ img {
 .catalog-item-price {
   margin: 0;
   margin-bottom: 13px;
+  font-weight: 400;
 }
 
 .catalog-item-type,
@@ -1019,10 +1027,12 @@ img {
   display: inline-block;
   width: 110px;
   margin-right: 2px;
+  vertical-align: middle;
 }
 
 .right-part {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .catalog-buttons {
