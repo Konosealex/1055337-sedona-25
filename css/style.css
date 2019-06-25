@@ -289,6 +289,31 @@ img {
   width: 568px;
   }
 
+  @-webkit-keyframes anime {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes anime {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+
 .hotels-search-form {
   display: flex;
   flex-direction: column;
@@ -302,6 +327,10 @@ img {
   font-weight: 700;
   background-color: #ffffff;
   z-index: 3;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  -webkit-animation: anime 300ms linear;
+          animation: anime 300ms linear;
 }
 
 .hotels-search-form input {
@@ -432,6 +461,31 @@ img {
 .button-search:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #5496bd;
+}
+
+.form-hidden {
+  display: none;
+}
+
+@keyframes bounce {
+ 0%, 20%, 60%, 100% {
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+
+ 40% {
+ -webkit-transform: translateY(-20px);
+ transform: translateY(-20px);
+ }
+
+ 80% {
+ -webkit-transform: translateY(-10px);
+ transform: translateY(-10px);
+ }
+}
+
+ .form-error {
+  animation: bounce 0.5s;
 }
 
 .map{
