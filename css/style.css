@@ -383,14 +383,20 @@ img {
 }
 
 .button-calendar:focus,
-.button-calendar:focus {
-  fill: #000000;
+.button-calendar:active {
   outline: 2px solid #e5e5e5;
 }
 
-.button-calendar:active {
+.date-btn:focus {
+  fill: #000000;
+}
+
+.date-btn:active {
   fill: #81b3d2;
-  outline: 2px solid #e5e5e5;
+}
+
+.date-btn:hover {
+  fill: #000000;
 }
 
 .hotels-search-half-wrapper {
@@ -416,12 +422,12 @@ img {
 
 .input-number {
   padding: 0 15px;
-  width: 8px;
+  width: 24px;
 }
 
 .button-less,
 .button-more {
-  width: 38px;
+  width: 30px;
   height: 38px;
   color: #a9a9a9;
   border: none;
@@ -696,7 +702,7 @@ img {
 
 .filter-list-item-checkbox {
   position: absolute;
-  width: 23px;
+  width: 26px;
   height: 23px;
   margin-top: 0;
   margin-left: -40px;
